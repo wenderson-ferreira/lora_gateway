@@ -1,15 +1,15 @@
 /*
- * iotloragw_rpi.h
+ * gongoloragw_rpi.h
  *
- *  Created on: Aug 09, 2018
- *      Author: ryanteck
+ *  Created on: Aug 09, 2020
+ *      Author: Wenderson
  */
 
-#ifndef _IOTGW_RPI_H_
-#define _IOTGW_RPI_H_
+#ifndef _GONGOGW_RPI_H_
+#define _GONGOGW_RPI_H_
 
 /* Human readable platform definition */
-#define DISPLAY_PLATFORM "IOTLGW ODC2"
+#define DISPLAY_PLATFORM "GongomeshGW ODC2"
 
 /* parameters for native spi */
 #define SPI_SPEED		8000000
@@ -20,4 +20,4 @@
 #define VID		        0x0403
 #define PID		        0x6014
 
-#endif /* _IOTGW_RPI_H_ */
+#endif /* _GONGOGW_RPI_H_ */
